@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="script/script.js"></script>
+</head>
+<body>
+    <!-- container da tela do login -->
+    <div id="containerLogin">
+        <!-- tela de login de usuario ja cadastrado -->
+        <div class="cadastro">
+            <!-- titulo do cadastro -->
+            <div class="titulo">
+                <h3>BEM - VINDO</h3>
+            </div>
+            <!-- imagem de perfil do usuario -->
+            <div class="imagemUser">
+                <img src="img/perfil.png" alt="imagemUser">
+                <h4>New User</h4>
+            </div>
+        </div>
+
+        <div class="login">
+                <!-- titulo de login -->
+            <div class="titulo">
+            <h1>FAÇA LOGIN</h1>
+            </div>
+            <!-- formulario de login -->
+            <div class="form">
+                <form>
+                    <!-- label do user -->
+                    <div class="username">
+                        <label for="username" >username ou login:</label>
+                        <input type="email" class="" title="username" placeholder="digite seu nome">
+                    </div>
+                    <!-- label da senha     -->
+                    <div>
+                        <label for="senha">senha:</label>
+                        <div class="senha">
+                            <input type="password" class="" title="senha" placeholder="digite sua senha" id="senha1">
+                            <img src="img/olho.svg" alt="hide">
+                        </div>
+                    </div>
+                    <!-- botao de enviar -->
+                    <div class="botaoEnviar">
+                        <input type="submit" value="login" id="botaoEnviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div> 
+    <div class="trocar">
+        <p>new user</p>
+        <button id="circulo">
+        </button>
+    </div> 
+    
+</body>
+</html>
